@@ -184,10 +184,10 @@
 					<td colspan="4"><textarea rows="7" cols="50" name="stuDesc" id="stuDesc"></textarea></td>
 				</tr>
 			</table>
-			<form action="<%=ctxPath%>/upload" method="post" enctype="multipart/form-data">
-				<input  type="file" name="images">
-				<button  type="submit"  name="upload">上传</button>
-			</form>
+<%--			<form action="<%=ctxPath%>/upload" method="post" enctype="multipart/form-data">--%>
+<%--				<input  type="file" name="images">--%>
+<%--				<button  type="submit"  name="upload">上传</button>--%>
+<%--			</form>--%>
 		</form>
 	</div>
 	
