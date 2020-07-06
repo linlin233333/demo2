@@ -105,7 +105,7 @@
 				<th field="cb" checkbox="true"></th>
 				<th field="id" width="50">编号</th>
 				<th field="gradeName" width="100">学校名称</th>
-				<th field="gradeDesc" width="250">学校方向</th>
+				<th field="gradeDesc" width="250">学校专业方向</th>
 			</tr>
 		</thead>
 	</table>
@@ -128,7 +128,7 @@
 					<td><input type="text" name="gradeName" id="gradeName" class="easyui-validatebox" required="true"/></td>
 				</tr>
 				<tr>
-					<td valign="top">学校方向：</td>
+					<td valign="top">学校专业方向：</td>
 					<td><textarea rows="7" cols="30" name="gradeDesc" id="gradeDesc"></textarea></td>
 				</tr>
 			</table>
