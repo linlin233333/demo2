@@ -47,7 +47,7 @@
 	
 	
 	function openGradeAddDialog(){
-		$("#dlg").dialog("open").dialog("setTitle","添加班级信息");
+		$("#dlg").dialog("open").dialog("setTitle","添加学校信息");
 		url="gradeSave";
 	}
 	
@@ -58,7 +58,7 @@
 			return;
 		}
 		var row=selectedRows[0];
-		$("#dlg").dialog("open").dialog("setTitle","编辑班级信息");
+		$("#dlg").dialog("open").dialog("setTitle","编辑学校信息");
 		$("#fm").form("load",row);
 		url="gradeSave?id="+row.id;
 	}
@@ -98,14 +98,14 @@
 </script>
 </head>
 <body style="margin: 5px;">
-	<table id="dg" title="班级信息" class="easyui-datagrid" fitColumns="true"
+	<table id="dg" title="学校信息" class="easyui-datagrid" fitColumns="true"
 	 pagination="true" rownumbers="true" url="gradeList" fit="true" toolbar="#tb">
 		<thead>
 			<tr>
 				<th field="cb" checkbox="true"></th>
 				<th field="id" width="50">编号</th>
-				<th field="gradeName" width="100">班级名称</th>
-				<th field="gradeDesc" width="250">班级描述</th>
+				<th field="gradeName" width="100">学校名称</th>
+				<th field="gradeDesc" width="250">学校方向</th>
 			</tr>
 		</thead>
 	</table>
@@ -124,11 +124,11 @@
 		<form id="fm" method="post">
 			<table>
 				<tr>
-					<td>班级名称：</td>
+					<td>学校名称：</td>
 					<td><input type="text" name="gradeName" id="gradeName" class="easyui-validatebox" required="true"/></td>
 				</tr>
 				<tr>
-					<td valign="top">班级描述：</td>
+					<td valign="top">学校方向：</td>
 					<td><textarea rows="7" cols="30" name="gradeDesc" id="gradeDesc"></textarea></td>
 				</tr>
 			</table>

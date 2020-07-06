@@ -1,24 +1,25 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="demo2:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/demo2_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/FaceTest-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>demo2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="demo2" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-httpclient-3.0.1.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.4.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.0.4.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.3.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.3" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/FaceTest-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="demo2/web/Web" />
     </root>

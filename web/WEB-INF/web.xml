@@ -11,9 +11,9 @@
   </welcome-file-list>
   
   <servlet>
-  	<servlet-name>loginServlet</servlet-name>
-  	<servlet-class>sctu.javaweb.web.LoginServlet</servlet-class>
-  </servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>sctu.javaweb.web.LoginServlet</servlet-class>
+</servlet>
   
   <servlet>
   	<servlet-name>gradeListServlet</servlet-name>

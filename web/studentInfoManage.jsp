@@ -124,7 +124,7 @@
 				<th field="sex" width="100" align="center">性别</th>
 				<th field="birthday" width="100" align="center">出生日期</th>
 				<th field="gradeId" width="100" align="center" hidden="true">班级ID</th>
-				<th field="gradeName" width="100" align="center">班级名称</th>
+				<th field="gradeName" width="100" align="center">学校名称</th>
 				<th field="email" width="150" align="center">Email</th>
 				<th field="stuDesc" width="250" align="center">学生备注</th>
 			</tr>
@@ -145,7 +145,7 @@
 			<option value="女">女</option>
 		</select>
 		&nbsp;出生日期：&nbsp;<input class="easyui-datebox" name="s_bbirthday" id="s_bbirthday" editable="false" size="10"/>-><input class="easyui-datebox" name="s_ebirthday" id="s_ebirthday" editable="false" size="10"/>
-		&nbsp;所属班级：&nbsp;<input class="easyui-combobox" id="s_gradeId" name="s_gradeId" size="10" data-options="panelHeight:'auto',editable:false,valueField:'id',textField:'gradeName',url:'gradeComboList'"/>
+		&nbsp;所属学校：&nbsp;<input class="easyui-combobox" id="s_gradeId" name="s_gradeId" size="10" data-options="panelHeight:'auto',editable:false,valueField:'id',textField:'gradeName',url:'gradeComboList'"/>
 		    
 		<a href="javascript:searchStudent()" class="easyui-linkbutton" iconCls="icon-search" plain="true">搜索</a></div>
 	</div>

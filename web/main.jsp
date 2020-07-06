@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
 <title>百千万行知人才培养项目“行知双百”定向班学生管理系统</title>
@@ -25,7 +25,7 @@
 		var treeData=[{
 			text:"根",
 			children:[{
-				text:"班级信息管理",
+				text:"学校信息管理",
 				attributes:{
 					url:"gradeInfoManage.jsp"
 				}
